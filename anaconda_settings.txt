@@ -1,0 +1,5 @@
+{
+    "anaconda_linter_mark_style": "none",
+    "anaconda_linter_underlines": false,
+    "auto_formatting": true
+}

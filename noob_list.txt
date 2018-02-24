@@ -1,0 +1,19 @@
+http://web.mit.edu/6.00/www/handouts/pybuntu.html
+
+https://launchpad.net/ubuntu/+ppas
+sudo add-apt-repository ppa:jonathonf/python-3.6 
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3.6 get-pip.py
+
+sudo apt-get install python3-django		- old ver 1.8.1
+sudo apt-get install python3-mysql.connector	- old ver
+
+sudo apt-get install mysql-connector-python-py3
+
+django-admin startproject 'projectname'
+django-admin startapp 'appname'
+
+virtualenv -p /usr/bin/python3.6 'envname'
+pip freeze
+pip freeze > requierments.txt
+deactivate
